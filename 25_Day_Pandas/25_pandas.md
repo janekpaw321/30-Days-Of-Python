@@ -56,7 +56,7 @@ Pandas provides tools for data manipulation:
 - slicing
 - aggregation
 - imputation.
-If you are using anaconda, you do not have install pandas.
+If you are using anaconda, you do not have to install pandas.
 
 ### Installing Pandas
 
@@ -91,7 +91,7 @@ Cities Series
 
 As you can see, pandas series is just one column of data. If we want to have multiple columns we use data frames. The example below shows pandas DataFrames.
 
-Let us see, an example of a pandas data frame:
+Let us see an example of a pandas data frame:
 
 ![Pandas data frame](../images/pandas-dataframe-1.png)
 
@@ -455,7 +455,7 @@ print(df.tail()) # tails give the last five rows, we can increase the rows by pa
   </tbody>
 </table>
 
-As you can see the csv file has three rows: Gender, Height and Weight. If the DataFrame would have a long rows, it would be hard to know all the columns. Therefore, we should use a method to know the colums.  we do not know the number of rows. Let's use shape meathod.
+As you can see the csv file has three rows: Gender, Height and Weight. If the DataFrame rows were too long, it would be hard to know all the columns. Therefore, we should use a method to know the colums.  we do not know the number of rows. Let's use shape meathod.
 
 ```python
 print(df.shape) # as you can see 10000 rows and three columns
